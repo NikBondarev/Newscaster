@@ -1,0 +1,40 @@
+.post-page{
+    padding: 100px 15px 50px;
+    display: flex;
+    h2{
+        font-size: 45px;
+    }
+
+    .news-info{
+        color: rgba($color: #333D51, $alpha: 0.5);
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 20px;
+    }
+    .news-date{
+        justify-content: center;
+        & span:nth-child(1){
+            font-size: 30px;
+            color: #333D51
+        }
+    }
+
+}
+.post-right{
+    width: calc(60% - 30px);
+    padding-right: 15px;
+}
+.post-left{
+    padding-left: 15px;
+    width: calc(60% - 30px);
+    img{
+        max-width: 100%;
+        display: flex;
+        margin-bottom: 30px;
+    }
+    p{
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+}

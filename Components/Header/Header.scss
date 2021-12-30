@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+h1, h2, h3, h4, h5, h6, p, a, span{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div{
+    box-sizing: border-box;
+}
+ul, li{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1110px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+}
+.header-nav{
+    
+    h1{
+        font-size: 25px;
+        color: #333D51;
+    }
+    a{
+        padding-right: 35px;  
+        text-decoration: none;
+        font-size: 18px;
+        color: #333D51;
+    }
+    a:last-child{
+        padding-right: 0;
+    }
+    .active-link{
+        color: blue;
+    }
+}
